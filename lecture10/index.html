@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .contenair {
+                width: 100vw;
+                height: 100vh;
+                background-color: #e7ff37;
+                border: 2px solid black;
+            }
+            .box{
+                width: 50px;
+                height: 20px;
+                background-color: rgb(36, 10, 238);
+                border: 1px solid black;
+                border-radius: 10px;
+                margin: 10px;
+                position: relative;
+                animation-name:rightmoment;
+                animation-duration: 5s;
+                animation-iteration-count: 2;
+                animation-delay: 5s;
+                animation-timing-function: cubic-bezier(1, -0.4, 1, 1);
+
+
+            }
+            @keyframes rightmoment {
+                from{
+                    top:0;
+                    left:0;
+                }
+                to{
+                    top:0;
+                    left: 1200px;
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenair">
+             <div class="box">
+            </div>
+        </div>
+    </body>
+</html>

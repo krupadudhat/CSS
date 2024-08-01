@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cards</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 100vw;
+                height: 100%;
+                min-height: 900px;
+                /* background-color: rgb(226, 241, 63); */
+                background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .card{
+                width: 400px;
+                height: 600px;
+                background-color: aliceblue;
+                border-radius: 20px;
+                gap: 2em;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            .card img{
+                height: 30%;
+                width: 100%;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+
+           .textBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:15px;
+            width:75% ;
+            text-align: center;
+        
+           } 
+
+           #amountBox{
+            width: 80%;
+            height: 10%;
+            background-color: rgb(116, 160, 242);
+            border-radius: 10px;
+            gap: 15px;
+            
+           }
+
+        #paymentButton{
+            width: 80%;
+            height:9% ;
+            background-color: rgb(4, 33, 85);
+            color: aliceblue;
+            border-radius: 10px;
+            box-shadow: #a1c4fd 1px 1px 30px;
+            
+        }
+        .cancleBox{
+            text-decoration: none;
+            color: #606364;
+            font-weight: bold;
+            font-size: large;
+        }
+
+
+        </style>   
+        </head>
+        <body>
+            <div class="container">
+                <div class="card">
+                    <img src="card.jpg"/>
+                    <div class="textBox">
+                        <h2>
+                            Order Summary
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex impedit, maiores consequatur a aspernatur ipsum?
+                        </p>
+                    </div>
+                    <div id="amountBox">
+
+                    </div>
+                    <button id="paymentButton">
+                        proceed to Payment
+                    </button> 
+                    <div class="cancleBox">
+                        Order cancle
+                    </div>
+                </div>
+            </div>
+
+    
+        </body>
+</html>

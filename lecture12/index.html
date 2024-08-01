@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>2D tranforms</title>
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                width: 100vw;
+                background-color: blueviolet;
+            }
+            .box{
+                width: 400px;
+                height: 400px;
+                background-color: rgb(233, 18, 151);
+                border: 1px solid black;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                transition: all 2s linear 1s;
+            }
+            .box:hover{
+                /* transform: rotate(45deg);
+                transform: scale(0.5); */
+                /* transform: skew(-45deg); */
+                transform: translate(500px ,500px);
+            }
+            p{
+                font-size: 36px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+            <p>This is box</p>
+        </div>
+    </div>
+            
+    </body>
+</html>
