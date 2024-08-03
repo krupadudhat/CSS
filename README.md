@@ -45,7 +45,7 @@ Preprocessors (Sass, LESS)
 To get started with the examples and assignments, clone this repository to your local machine using the following command:
 
 # bash
-git clone https://github.com/yourusername/css-course.git
+git clone https://github.com/krupadudhat/CSS-Course.git
 # Usage
 Navigate to the respective folders to find the examples and assignments for each module. Open the HTML files in your browser to see the CSS in action. Modify the CSS files to practice and experiment with different styles.
 
